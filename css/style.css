@@ -1,0 +1,80 @@
+        @font-face {
+            font-family: "Montserrat Alternates Regular";
+            src: url("../fonts/montserrat-alternates-regular.woff2") format("woff2"), url("../fonts/montserrat-alternates-regular.woff") format("woff"), url("../fonts/montserrat-alternates-regular.ttf") format("truetype");
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            line-height: 1;
+            color: #000000;
+            background-color: #C9C9C9;
+        }
+        
+        h1,
+        h2 {
+            letter-spacing: 0.04em;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-weight: 400;
+            letter-spacing: 0.04em;
+            margin-bottom: 20px;
+        }
+        
+        .roboto-font {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .roboto-font h1 {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        
+        .montserrat {
+            font-family: "Montserrat Alternates Regular";
+        }
+        
+        .icon ul li {
+            list-style: none;
+            display: inline;
+            margin-right: 50px;
+        }
+        
+        .icon li i {
+            font-weight: 400;
+            font-style: normal;
+            font-family: "FontAwesome";
+        }
+        
+        .icon li .fa-battery-full::before {
+            content: "\f240";
+            color: green;
+        }
+        
+        .fa-clock-o::before {
+            content: "\f017";
+            color: red;
+        }
+        
+        .fa-coffee::before {
+            content: "\f0f4";
+            color: black;
+        }
+        
+        .fa-diamond::before {
+            content: "\f219";
+            color: white;
+        }
+        
+        .fa-music::before {
+            content: "\f001";
+            color: tomato;
+        }
+        
+        .fa-flag-checkered::before {
+            content: "\f11e";
+            color: yellow;
+        }
